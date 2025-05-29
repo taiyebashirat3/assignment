@@ -213,6 +213,7 @@ footer p {
 .hero{
   flex-direction: column;
   justify-content: center;
+   padding:50px;
 }
 .hero-text{
   text-align: center;
@@ -224,9 +225,13 @@ footer p {
   flex-direction: column;
 }
 .cta-banner{
-  left: 80px;
+  left: 30px;
   right: 100px;
    bottom: -100px;
+   width: 70%;
+}
+.cta-banner h2 {
+  font-size: 20px;
 }
 .footer-info{
    padding-top: 50px;
